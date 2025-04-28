@@ -6,7 +6,6 @@ const Page = () => {
   const [password, setPassword] = useState('');
 
   const handleSubmit = () => {
-    // Aquí puedes agregar la lógica para enviar los datos
     console.log('Enviando datos:', username, password);
     alert(`Enviando usuario: ${username} y contraseña: ${password}`);
   };
